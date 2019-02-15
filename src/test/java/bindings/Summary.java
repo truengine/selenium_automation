@@ -38,6 +38,7 @@ public class Summary {
   //  }
 
     WebDriver driver;
+    String targetGUI = "http://localhost:8081/";
     public static final String testDataExcelFileName = "testdata.xlsx";
     String SummaryInputText = "life is good!";
 
@@ -47,7 +48,7 @@ public class Summary {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\FosterR01\\Desktop\\Selenium\\webdriver_chrome\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
-        driver.get("http://localhost:8081/");
+        driver.get(targetGUI);
         driver.manage().window().maximize();
     }
 
