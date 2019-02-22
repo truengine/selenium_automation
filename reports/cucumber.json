@@ -1,0 +1,70 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 4,
+            "value": "#home class features"
+          }
+        ],
+        "line": 5,
+        "name": "Add info to Summary text field",
+        "description": "",
+        "id": "summary;add-info-to-summary-text-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13074859300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the profile creation page",
+            "match": {
+              "location": "Summary.i_am_on_the_profile_creation_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1175893700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i add text to the Summary field",
+            "match": {
+              "location": "Summary.i_add_text_to_the_Summary_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 957352600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i can view the added text in the console output",
+            "match": {
+              "location": "Summary.i_can_view_the_added_text_in_the_console_output()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "summary",
+    "description": "",
+    "id": "summary",
+    "keyword": "Feature",
+    "uri": "summary.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@run"
+      }
+    ]
+  }
+]

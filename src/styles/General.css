@@ -1,0 +1,22 @@
+
+.ui.huge.header {
+  color: #6A47C5;
+}
+.ui.header {
+  color: #6A47C5 !important;
+}
+.ui.button {
+  color: white !important;
+  background-color: #6A47C5 !important
+}
+.ui.button:hover {
+  color: white !important;
+  background-color: MediumPurple !important
+}
+
+.ui.celled.striped.table{
+}
+
+thead{
+color:red;
+}
