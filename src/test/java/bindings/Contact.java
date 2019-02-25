@@ -1,3 +1,4 @@
+/*
 package bindings;
 
 import cucumber.api.PendingException;
@@ -63,3 +64,4 @@ public class Contact {
         // should put in a check for country selection but putting off for now...
     }
 }
+*/

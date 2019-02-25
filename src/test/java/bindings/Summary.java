@@ -1,3 +1,4 @@
+/*
 package bindings;
 
 import cucumber.api.PendingException;
@@ -67,4 +68,4 @@ public class Summary {
         Assert.assertFalse("Summary not submitted!", SubmitSuccess);
         driver.quit();
     }
-}
+}*/

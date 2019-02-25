@@ -1,68 +1,110 @@
 [
   {
-    "line": 3,
+    "line": 2,
     "elements": [
       {
-        "comments": [
-          {
-            "line": 4,
-            "value": "#home class features"
-          }
-        ],
-        "line": 5,
-        "name": "Add info to Summary text field",
+        "line": 3,
+        "name": "e2e scenario",
         "description": "",
-        "id": "summary;add-info-to-summary-text-field",
+        "id": "e2e;e2e-scenario",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 13074859300,
+              "duration": 13090937300,
               "status": "passed"
             },
-            "line": 6,
-            "name": "I am on the profile creation page",
+            "line": 4,
+            "name": "profile landing page",
             "match": {
-              "location": "Summary.i_am_on_the_profile_creation_page()"
+              "location": "E2E.profile_landing_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1175893700,
+              "duration": 742209700,
               "status": "passed"
             },
-            "line": 7,
-            "name": "i add text to the Summary field",
+            "line": 5,
+            "name": "i add text to the name field",
             "match": {
-              "location": "Summary.i_add_text_to_the_Summary_field()"
+              "location": "E2E.i_add_text_to_the_name_field()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 957352600,
+              "duration": 494052800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i add text to the email field",
+            "match": {
+              "location": "E2E.i_add_text_to_the_email_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 931866200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i add text to the country field",
+            "match": {
+              "location": "E2E.i_add_text_to_the_country_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109894100,
               "status": "passed"
             },
             "line": 8,
-            "name": "i can view the added text in the console output",
+            "name": "text viewable in console output",
             "match": {
-              "location": "Summary.i_can_view_the_added_text_in_the_console_output()"
+              "location": "E2E.text_viewable_in_console_output()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 917083700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i add text to the Summary fieldb",
+            "match": {
+              "location": "E2E.i_add_text_to_the_Summary_fieldb()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1179373200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i can view the added text in the console outputb",
+            "match": {
+              "location": "E2E.i_can_view_the_added_text_in_the_console_outputb()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "summary",
+    "name": "e2e",
     "description": "",
-    "id": "summary",
+    "id": "e2e",
     "keyword": "Feature",
-    "uri": "summary.feature",
+    "uri": "e2e.feature",
     "tags": [
       {
-        "line": 2,
+        "line": 1,
         "name": "@run"
       }
     ]

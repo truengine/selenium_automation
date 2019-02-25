@@ -1,65 +1,107 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("summary.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("e2e.feature");
 formatter.feature({
-  "line": 3,
-  "name": "summary",
+  "line": 2,
+  "name": "e2e",
   "description": "",
-  "id": "summary",
+  "id": "e2e",
   "keyword": "Feature",
   "tags": [
     {
-      "line": 2,
+      "line": 1,
       "name": "@run"
     }
   ]
 });
 formatter.scenario({
-  "comments": [
-    {
-      "line": 4,
-      "value": "#home class features"
-    }
-  ],
-  "line": 5,
-  "name": "Add info to Summary text field",
+  "line": 3,
+  "name": "e2e scenario",
   "description": "",
-  "id": "summary;add-info-to-summary-text-field",
+  "id": "e2e;e2e-scenario",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 6,
-  "name": "I am on the profile creation page",
+  "line": 4,
+  "name": "profile landing page",
   "keyword": "Given "
 });
 formatter.step({
+  "line": 5,
+  "name": "i add text to the name field",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 6,
+  "name": "i add text to the email field",
+  "keyword": "When "
+});
+formatter.step({
   "line": 7,
-  "name": "i add text to the Summary field",
+  "name": "i add text to the country field",
   "keyword": "When "
 });
 formatter.step({
   "line": 8,
-  "name": "i can view the added text in the console output",
+  "name": "text viewable in console output",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 10,
+  "name": "i add text to the Summary fieldb",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 11,
+  "name": "i can view the added text in the console outputb",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Summary.i_am_on_the_profile_creation_page()"
+  "location": "E2E.profile_landing_page()"
 });
 formatter.result({
-  "duration": 13074859300,
+  "duration": 13090937300,
   "status": "passed"
 });
 formatter.match({
-  "location": "Summary.i_add_text_to_the_Summary_field()"
+  "location": "E2E.i_add_text_to_the_name_field()"
 });
 formatter.result({
-  "duration": 1175893700,
+  "duration": 742209700,
   "status": "passed"
 });
 formatter.match({
-  "location": "Summary.i_can_view_the_added_text_in_the_console_output()"
+  "location": "E2E.i_add_text_to_the_email_field()"
 });
 formatter.result({
-  "duration": 957352600,
+  "duration": 494052800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "E2E.i_add_text_to_the_country_field()"
+});
+formatter.result({
+  "duration": 931866200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "E2E.text_viewable_in_console_output()"
+});
+formatter.result({
+  "duration": 109894100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "E2E.i_add_text_to_the_Summary_fieldb()"
+});
+formatter.result({
+  "duration": 917083700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "E2E.i_can_view_the_added_text_in_the_console_outputb()"
+});
+formatter.result({
+  "duration": 1179373200,
   "status": "passed"
 });
 });
